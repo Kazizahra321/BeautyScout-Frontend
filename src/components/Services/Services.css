@@ -6,7 +6,8 @@
 }
 .serv-pad{
     margin-left: 30px;
-    text-align: center;  
+    text-align: center; 
+    
 }
 
 .secondary {
@@ -15,10 +16,9 @@
   }
   
   .services{
-    background-image: url("C:\Users\admin\startupapp\public\bg7.jpg");
-    background-repeat: no-repeat;
-      background-size: cover;
+    background-color:rgb(227, 254, 247);
+    padding-bottom: 50px; 
   }
   .one{
-    color: white;
+    color:black;
   }

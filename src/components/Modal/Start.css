@@ -1,7 +1,8 @@
 .start{
-  background-image: url("C:\Users\admin\startupapp\public\bg7.jpg");
-  background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("C:\Users\admin\BeautyScout\public\bg8.jpeg");
+    background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 200px;
 }
 
 .modal-style {
@@ -15,6 +16,7 @@
     border: 2px solid #000;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 16px;
+
   }
   
   .box-container {
@@ -30,18 +32,19 @@
     text-align: center;
     font-size: 70px;
     font-weight: 600;
-    color: orange;
+    color:rgb(0, 60, 67);
   }
   
   .new1Text {
     text-align: center;
     padding-bottom: 50px;
     font-weight: 600;
-    color: whitesmoke;
+    color: black;
   }
   
   .start-box {
     background-color: aqua;
+    
   }
   
   @media (max-width: 1024px) {
@@ -52,6 +55,7 @@
     .box-container {
       padding-left: 20px;
       padding-right: 20px;
+      
     }
   }
   

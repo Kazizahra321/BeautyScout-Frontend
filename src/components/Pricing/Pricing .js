@@ -6,11 +6,11 @@ import './Pricing.css'
 export default function Pricing() {
   return (
    <div className='pricin'>
-    <h1 className='secondaryText1'>Our Pricing</h1>
-    <h2 className='secondaryText2'>Our Plans are So Good, You’ll Want to Hug Us (but please don’t).</h2>
+    <h1 className='secondaryText1'>Our Recommended Products</h1>
+    <h2 className='secondaryText2'>Our Beauty Recommendatons are So Good, You’ll Want to Hug Us (but please don’t).</h2>
 
     <div className='p-img'>
-      <ImageList sx={{ width: 600, height: 300 }} variant="woven" cols={3} gap={8}>
+      <ImageList sx={{ width: 600, height: 400 }} variant="woven" cols={3} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -29,39 +29,63 @@ export default function Pricing() {
 
 const itemData = [
   {
-    img: './offer1.png',
+    img: './g1.jpeg',
     title: 'Bed',
   },
   {
-    img:'./offer2.png',
+    img:'./g31.jpeg',
     title: 'Kitchen',
   },
   {
-    img: './offer3.png',
+    img: './g23.jpeg',
     title: 'Sink',
   },
   {
-    img: './offer1.png',
+    img: './g25.jpeg',
     title: 'Books',
   },
   {
-    img: './offer2.png',
+    img: './g26.jpeg',
     title: 'Chairs',
   },
   {
-    img: './offer3.png',
+    img: './g27.jpeg',
     title: 'Candle',
   },
   {
-    img: './offer1.png',
+    img: './g28.jpeg',
     title: 'Laptop',
   },
   {
-    img: './offer2.png',
+    img: './g29.jpeg',
     title: 'Doors',
   },
   {
-    img: './offer3.png',
+    img: './g30.jpeg',
     title: 'Coffee',
-  }
+  },
+  {
+    img: './g2.jpeg',
+    title: 'Sink',
+  },
+  {
+    img: './g6.jpeg',
+    title: 'Books',
+  },
+  {
+    img: './g10.jpeg',
+    title: 'Chairs',
+  },
+  {
+    img: './g3.jpeg',
+    title: 'Sink',
+  },
+  {
+    img: './g13.jpeg',
+    title: 'Books',
+  },
+  {
+    img: './g16.jpeg',
+    title: 'Chairs',
+  },
 ];

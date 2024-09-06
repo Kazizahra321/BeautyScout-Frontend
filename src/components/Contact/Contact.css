@@ -1,5 +1,6 @@
 .c-container {
     justify-content: space-between;
+   
   }
   .c-container > div {
     flex: 1;
@@ -47,7 +48,7 @@
   }
   
   .mode .button:hover {
-    background: var(--blue-gradient);
+    background: rgb(0, 60, 67);
     color: white;
     scale: 0.8;
   }
@@ -57,11 +58,15 @@
       text-align: center;
       font-size: 70px;
       font-weight: 600;
-      color:orange;
+      color:rgb(0, 60, 67);
  
   }
  
-  
+  .c-wrapper{
+    background-image: url("C:\Users\admin\BeautyScout\public\g5.jpeg");
+    background-repeat: no-repeat;
+      background-size: cover;
+  }
   @media (max-width: 1024px) {
     .c-container {
       flex-direction: column;

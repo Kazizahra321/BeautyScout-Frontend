@@ -9,19 +9,18 @@ import StepLabel from '@mui/material/StepLabel';
 import StepContent from '@mui/material/StepContent';
 import Paper from '@mui/material/Paper';
 import './Start.css';
-
 const steps = [
   {
     label: 'Explore Categories',
-    description: 'Select from various categories of startup solutions you are interested in.',
+    description: 'Select from various categories of makeup products like lipsticks, foundations, eye shadows, and more.',
   },
   {
-    label: 'Discover Solutions',
-    description: 'Browse through curated lists of startup solutions within the selected category.',
+    label: 'Discover Products',
+    description: 'Browse through a curated list of makeup products within the selected category, including top brands and latest trends.',
   },
   {
-    label: 'Learn More & Connect',
-    description: 'Access additional resources, guides, and opportunities to connect with solution providers.',
+    label: 'Personalise Your Selection',
+    description: 'Use filters and recommendations to refine your search and find products that match your preferences and skin type.',
   },
 ];
 

@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Customers from './components/Feedback';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Footer from './components/Footer';
 import Header from './components/Header/Header';
 import Pricing from './components/Pricing/Pricing ';
@@ -16,22 +16,21 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div>
-    
-     
-      <Navbar/>
-      <Header/>
-      <Pricing/>
-      <Blog/>
-      <Services/>
-      <Start/>
-      <Support/>
-      <Customers/>
-      <Contact/>
-     <Footer/>
-    </div>
+    <Router>
+<Navbar />
+<Routes>
+  <Route path="/" element={<Header/>} />
+  <Route path="/start" element={<Start/>} />
+  <Route path="/services" element={<Services/>} />
+  <Route path="/pricing" element={<Pricing/>} />
+  <Route path="/contact" element={<Contact/>} />
+  
+</Routes>
+<Footer/>
 
+</Router>
   );
 }
+
 
 export default App;

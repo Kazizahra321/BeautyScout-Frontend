@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 //import './Navbar.css'
 function Navbar() {
   return (
@@ -6,14 +7,19 @@ function Navbar() {
      
       <div>
       <ul className='nav-list'>
-      <li className='logo'><img src='https://okstartups.com/' alt=''/></li>
       
-      <li className='logo-title'><h2>OKstartups</h2></li>
-            <li><a href="www.google.com">Home</a></li>
-            <li><a href="#">ContactUs</a></li>
-            <li><a href="#">AboutUs</a></li>
-            <li><a href="#">GetStarted</a></li>
-            <li><a href="#">Help</a></li>
+      
+      <li className='logo-title'><h2>BeautyScout</h2></li>
+      
+            <li><NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink></li>
+            <li><NavLink className="nav-link" to="/start">GetStarted</NavLink></li>
+            <li><NavLink className="nav-link" to="/services">Results</NavLink></li>
+            <li><NavLink className="nav-link" to="/pricing">Recommends</NavLink></li>
+            <li><NavLink className="nav-link" to="/contact">ContactUs</NavLink></li>
+        
+            
+           
+           
            
         </ul>
       </div>

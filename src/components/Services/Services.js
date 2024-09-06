@@ -9,12 +9,12 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 
 
 const icons = [
-  { id: 1, src: './clip1.png', alt: 'Image 1' },
-  { id: 2, src: './clip2.png', alt: 'Image 2' },
-  { id: 3, src: './clip3.png', alt: 'Image 3' },
-  { id: 4, src: './clip4.png', alt: 'Image 4' },
-  { id: 5, src: './clip5.png', alt: 'Image 5' },
-  { id: 6, src: './clip6.png', alt: 'Image 6' },
+  { id: 1, src: './g1.jpeg', alt: 'Image 1' },
+  { id: 2, src: './g3.jpeg', alt: 'Image 2' },
+  { id: 3, src: './g17.jpeg', alt: 'Image 3' },
+  { id: 4, src: './g19.jpeg', alt: 'Image 4' },
+  { id: 5, src: './g27.jpeg', alt: 'Image 5' },
+ 
 ];
 
 export default function Services() {
@@ -26,11 +26,8 @@ export default function Services() {
 
   return (
     <div className='services'>
-        <span className='serv-pad'><h1 className='one'>Let's face it </h1>
-        <h2 className='serv-text'> running a business is hard.</h2>
-        <h2 className='serv-text'> Managing legal compliances makes it harder.</h2>
-    <h2 className='secondary'>Let’s face it—running a business is hard. Managing customer data with spreadsheets makes it harder.</h2>
-    </span>
+        <span className='serv-pad'><h1 className='one'>Results</h1>
+        </span>
             <Box className="one" sx={{ height: 500, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <FormControlLabel
         control={<Switch checked={checked} onChange={handleChange} />}

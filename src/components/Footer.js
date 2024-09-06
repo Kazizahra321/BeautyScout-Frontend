@@ -10,18 +10,9 @@ function Footer() {
         <ul className='locals'>
           <li><PinDropIcon/> Address : 231, Vikash Nagar, Rewari, Haryana, 123401 </li>
           <li><PhoneIcon/>Phone : 9911819161</li>
-          <li><MailOutlineIcon/>Email : OKstartups@gmail.com</li>
+          <li><MailOutlineIcon/>Email : BeautyScout@gmail.com</li>
         </ul>
-         <ul className='locals'>
-         <li>ContactUs</li>
-          <li>AboutUs</li>
-          <li>GetStarted</li> 
-         </ul>
-         <ul className='locals'>
-         <li>Pricing</li>
-          <li>Support</li>
-          <li>Feedback</li> 
-         </ul>
+      
           <ul>
             <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
             <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
@@ -31,7 +22,7 @@ function Footer() {
         </footer>
 <footer>
 
-<p className='copyr'>Copyright @ {new Date().getFullYear()} Okstartups.</p>
+<p className='copyr'>Copyright @ {new Date().getFullYear()} BeautyScout.</p>
 </footer>
     </div>
   )

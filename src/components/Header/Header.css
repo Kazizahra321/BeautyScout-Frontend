@@ -4,7 +4,9 @@
     position: relative;
     z-index: 1;
     padding-bottom: 2rem;
-    background-color:rgb(227, 254, 247);
+    background-image: url("C:\Users\admin\BeautyScout\public\bg8.jpeg");
+    background-repeat: no-repeat;
+      background-size: cover;
   }
  
   .hero-container {
@@ -59,7 +61,7 @@
       font-size: 2rem;
   }
   .stat>:nth-child(1)>:last-child{
-      color: orange;
+      color:rgb(0, 60, 67);
   }
   /* right side */
   

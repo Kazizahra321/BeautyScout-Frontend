@@ -14,15 +14,15 @@ function Header() {
         <div className='hero-title'>
          <div className="orange-circle"/>
             <h1>
-                  Discover <br/> Prime Startup <br/> Solutions
+                  Discover <br/> Prime Beauty <br/> Solutions
             </h1>
         </div>
       
    
     <div className='flexColStart hero-des'>
-        <span className='secondaryText'><br/>Find a variety of innovative ideas that suit you very easilty
+        <span className='secondaryText'><br/>Find a variety of beauty prooducts that suit your unique style
 </span>
-<span className='secondaryText'>Forget all difficulties in finding a perfect Startup for you</span>
+<span className='secondaryText'>Uncover prime solutions crafted just for you</span>
 
     </div>
     <div className="flexCenter search-bar">
@@ -50,10 +50,10 @@ function Header() {
 
             <div className="flexColCenter stat">
                 <span  className='secondaryText'>
-                  <CountUp  end={29} />  
+                  <CountUp  end={5} />  
                   <span>+</span>
                 </span>
-                <span className='secondaryText'>Award Winnings </span>
+                <span className='secondaryText'>Ratings </span>
             </div>
 
 
@@ -65,7 +65,7 @@ function Header() {
     <div className='flexCenter hero-right'>
        
         <div className="image-container">
-            <img src='./head_img.jpeg' alt=''/>
+            <img src='./g7.jpeg' alt=''/>
         </div>
         </div>
     </div>
